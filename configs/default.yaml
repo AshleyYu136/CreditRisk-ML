@@ -1,0 +1,7 @@
+seed: 42
+mode: fast
+cv_folds: 3
+search_iterations: 2
+n_jobs: 2
+maximum_validation_bad_rate: 0.10
+review_threshold: 0.50

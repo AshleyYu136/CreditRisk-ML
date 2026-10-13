@@ -1,0 +1,393 @@
+{
+  "customer_segmentation": [
+    {
+      "age_segment": "30_to_49",
+      "customers": 17702,
+      "default_rate": 0.21246186871539938,
+      "mean_limit": 191080.08586600385
+    },
+    {
+      "age_segment": "50_plus",
+      "customers": 2680,
+      "default_rate": 0.25298507462686565,
+      "mean_limit": 166936.5671641791
+    },
+    {
+      "age_segment": "under_30",
+      "customers": 9618,
+      "default_rate": 0.22842586816385943,
+      "mean_limit": 124208.77521314203
+    }
+  ],
+  "data_quality": [
+    {
+      "rows": 30000,
+      "distinct_ids": 30000,
+      "invalid_targets": 0,
+      "invalid_limits": 0,
+      "missing_key_fields": 0
+    }
+  ],
+  "default_analysis": [
+    {
+      "latest_status": 7,
+      "customers": 9,
+      "defaults": 7,
+      "default_rate": 0.7777777777777778,
+      "mean_limit": 145555.55555555556,
+      "risk_rank": 1
+    },
+    {
+      "latest_status": 3,
+      "customers": 322,
+      "defaults": 244,
+      "default_rate": 0.7577639751552795,
+      "mean_limit": 81552.7950310559,
+      "risk_rank": 2
+    },
+    {
+      "latest_status": 2,
+      "customers": 2667,
+      "defaults": 1844,
+      "default_rate": 0.6914135733033371,
+      "mean_limit": 111494.56317960256,
+      "risk_rank": 3
+    },
+    {
+      "latest_status": 4,
+      "customers": 76,
+      "defaults": 52,
+      "default_rate": 0.6842105263157895,
+      "mean_limit": 78157.8947368421,
+      "risk_rank": 4
+    },
+    {
+      "latest_status": 8,
+      "customers": 19,
+      "defaults": 11,
+      "default_rate": 0.5789473684210527,
+      "mean_limit": 103684.21052631579,
+      "risk_rank": 5
+    },
+    {
+      "latest_status": 6,
+      "customers": 11,
+      "defaults": 6,
+      "default_rate": 0.5454545454545454,
+      "mean_limit": 100909.09090909091,
+      "risk_rank": 6
+    },
+    {
+      "latest_status": 5,
+      "customers": 26,
+      "defaults": 13,
+      "default_rate": 0.5,
+      "mean_limit": 73076.92307692308,
+      "risk_rank": 7
+    },
+    {
+      "latest_status": 1,
+      "customers": 3688,
+      "defaults": 1252,
+      "default_rate": 0.33947939262472887,
+      "mean_limit": 148796.09544468546,
+      "risk_rank": 8
+    },
+    {
+      "latest_status": -1,
+      "customers": 5686,
+      "defaults": 954,
+      "default_rate": 0.16778051354203308,
+      "mean_limit": 206769.2578262399,
+      "risk_rank": 9
+    },
+    {
+      "latest_status": -2,
+      "customers": 2759,
+      "defaults": 365,
+      "default_rate": 0.13229430953243929,
+      "mean_limit": 250391.44617615078,
+      "risk_rank": 10
+    },
+    {
+      "latest_status": 0,
+      "customers": 14737,
+      "defaults": 1888,
+      "default_rate": 0.12811291307593134,
+      "mean_limit": 154265.02544615592,
+      "risk_rank": 11
+    }
+  ],
+  "feature_aggregation": [
+    {
+      "ID": 5158,
+      "default": 1,
+      "LIMIT_BAL": 130000,
+      "bill_mean": 86222.66666666667,
+      "payment_mean": 3178.5,
+      "limit_percentile": 0.4604153471782393,
+      "mean_limit_by_outcome": 130109.65641952984
+    },
+    {
+      "ID": 5405,
+      "default": 1,
+      "LIMIT_BAL": 130000,
+      "bill_mean": 26541.166666666668,
+      "payment_mean": 1248.0,
+      "limit_percentile": 0.4604153471782393,
+      "mean_limit_by_outcome": 130109.65641952984
+    },
+    {
+      "ID": 5698,
+      "default": 1,
+      "LIMIT_BAL": 130000,
+      "bill_mean": 3172.6666666666665,
+      "payment_mean": 3569.3333333333335,
+      "limit_percentile": 0.4604153471782393,
+      "mean_limit_by_outcome": 130109.65641952984
+    },
+    {
+      "ID": 6256,
+      "default": 1,
+      "LIMIT_BAL": 130000,
+      "bill_mean": 52235.333333333336,
+      "payment_mean": 1983.3333333333333,
+      "limit_percentile": 0.4604153471782393,
+      "mean_limit_by_outcome": 130109.65641952984
+    },
+    {
+      "ID": 6429,
+      "default": 1,
+      "LIMIT_BAL": 130000,
+      "bill_mean": 113341.5,
+      "payment_mean": 5483.166666666667,
+      "limit_percentile": 0.4604153471782393,
+      "mean_limit_by_outcome": 130109.65641952984
+    },
+    {
+      "ID": 6641,
+      "default": 1,
+      "LIMIT_BAL": 130000,
+      "bill_mean": 128817.66666666667,
+      "payment_mean": 5083.333333333333,
+      "limit_percentile": 0.4604153471782393,
+      "mean_limit_by_outcome": 130109.65641952984
+    },
+    {
+      "ID": 6846,
+      "default": 1,
+      "LIMIT_BAL": 130000,
+      "bill_mean": 102563.83333333333,
+      "payment_mean": 4075.0,
+      "limit_percentile": 0.4604153471782393,
+      "mean_limit_by_outcome": 130109.65641952984
+    },
+    {
+      "ID": 7119,
+      "default": 1,
+      "LIMIT_BAL": 130000,
+      "bill_mean": 128994.33333333333,
+      "payment_mean": 4433.666666666667,
+      "limit_percentile": 0.4604153471782393,
+      "mean_limit_by_outcome": 130109.65641952984
+    },
+    {
+      "ID": 7131,
+      "default": 1,
+      "LIMIT_BAL": 130000,
+      "bill_mean": 20559.5,
+      "payment_mean": 1833.3333333333333,
+      "limit_percentile": 0.4604153471782393,
+      "mean_limit_by_outcome": 130109.65641952984
+    },
+    {
+      "ID": 7206,
+      "default": 1,
+      "LIMIT_BAL": 130000,
+      "bill_mean": 119679.66666666667,
+      "payment_mean": 5425.5,
+      "limit_percentile": 0.4604153471782393,
+      "mean_limit_by_outcome": 130109.65641952984
+    },
+    {
+      "ID": 7436,
+      "default": 1,
+      "LIMIT_BAL": 130000,
+      "bill_mean": 100270.66666666667,
+      "payment_mean": 3750.3333333333335,
+      "limit_percentile": 0.4604153471782393,
+      "mean_limit_by_outcome": 130109.65641952984
+    },
+    {
+      "ID": 7565,
+      "default": 1,
+      "LIMIT_BAL": 130000,
+      "bill_mean": 696.0,
+      "payment_mean": 580.0,
+      "limit_percentile": 0.4604153471782393,
+      "mean_limit_by_outcome": 130109.65641952984
+    },
+    {
+      "ID": 7676,
+      "default": 1,
+      "LIMIT_BAL": 130000,
+      "bill_mean": 71270.66666666667,
+      "payment_mean": 2381.0,
+      "limit_percentile": 0.4604153471782393,
+      "mean_limit_by_outcome": 130109.65641952984
+    },
+    {
+      "ID": 7701,
+      "default": 1,
+      "LIMIT_BAL": 130000,
+      "bill_mean": 2495.8333333333335,
+      "payment_mean": 1415.8333333333333,
+      "limit_percentile": 0.4604153471782393,
+      "mean_limit_by_outcome": 130109.65641952984
+    },
+    {
+      "ID": 7775,
+      "default": 1,
+      "LIMIT_BAL": 130000,
+      "bill_mean": 36132.333333333336,
+      "payment_mean": 0.0,
+      "limit_percentile": 0.4604153471782393,
+      "mean_limit_by_outcome": 130109.65641952984
+    },
+    {
+      "ID": 7933,
+      "default": 1,
+      "LIMIT_BAL": 130000,
+      "bill_mean": 0.0,
+      "payment_mean": 0.0,
+      "limit_percentile": 0.4604153471782393,
+      "mean_limit_by_outcome": 130109.65641952984
+    },
+    {
+      "ID": 7966,
+      "default": 1,
+      "LIMIT_BAL": 130000,
+      "bill_mean": 26082.666666666668,
+      "payment_mean": 4872.0,
+      "limit_percentile": 0.4604153471782393,
+      "mean_limit_by_outcome": 130109.65641952984
+    },
+    {
+      "ID": 8000,
+      "default": 1,
+      "LIMIT_BAL": 130000,
+      "bill_mean": 43715.333333333336,
+      "payment_mean": 1233.3333333333333,
+      "limit_percentile": 0.4604153471782393,
+      "mean_limit_by_outcome": 130109.65641952984
+    },
+    {
+      "ID": 8056,
+      "default": 1,
+      "LIMIT_BAL": 130000,
+      "bill_mean": 1078.1666666666667,
+      "payment_mean": 1618.5,
+      "limit_percentile": 0.4604153471782393,
+      "mean_limit_by_outcome": 130109.65641952984
+    },
+    {
+      "ID": 8183,
+      "default": 1,
+      "LIMIT_BAL": 130000,
+      "bill_mean": 103005.0,
+      "payment_mean": 4425.0,
+      "limit_percentile": 0.4604153471782393,
+      "mean_limit_by_outcome": 130109.65641952984
+    },
+    {
+      "ID": 8190,
+      "default": 1,
+      "LIMIT_BAL": 130000,
+      "bill_mean": 9730.833333333334,
+      "payment_mean": 11785.166666666666,
+      "limit_percentile": 0.4604153471782393,
+      "mean_limit_by_outcome": 130109.65641952984
+    },
+    {
+      "ID": 8308,
+      "default": 1,
+      "LIMIT_BAL": 130000,
+      "bill_mean": 84081.83333333333,
+      "payment_mean": 3347.1666666666665,
+      "limit_percentile": 0.4604153471782393,
+      "mean_limit_by_outcome": 130109.65641952984
+    },
+    {
+      "ID": 8440,
+      "default": 1,
+      "LIMIT_BAL": 130000,
+      "bill_mean": 116817.5,
+      "payment_mean": 3804.0,
+      "limit_percentile": 0.4604153471782393,
+      "mean_limit_by_outcome": 130109.65641952984
+    },
+    {
+      "ID": 10481,
+      "default": 1,
+      "LIMIT_BAL": 130000,
+      "bill_mean": 1017.1666666666666,
+      "payment_mean": 892.3333333333334,
+      "limit_percentile": 0.4604153471782393,
+      "mean_limit_by_outcome": 130109.65641952984
+    },
+    {
+      "ID": 10554,
+      "default": 1,
+      "LIMIT_BAL": 130000,
+      "bill_mean": 119708.0,
+      "payment_mean": 4653.833333333333,
+      "limit_percentile": 0.4604153471782393,
+      "mean_limit_by_outcome": 130109.65641952984
+    },
+    {
+      "ID": 11053,
+      "default": 1,
+      "LIMIT_BAL": 130000,
+      "bill_mean": 106483.5,
+      "payment_mean": 5686.166666666667,
+      "limit_percentile": 0.4604153471782393,
+      "mean_limit_by_outcome": 130109.65641952984
+    },
+    {
+      "ID": 11171,
+      "default": 1,
+      "LIMIT_BAL": 130000,
+      "bill_mean": 312.8333333333333,
+      "payment_mean": 177.0,
+      "limit_percentile": 0.4604153471782393,
+      "mean_limit_by_outcome": 130109.65641952984
+    },
+    {
+      "ID": 11206,
+      "default": 1,
+      "LIMIT_BAL": 130000,
+      "bill_mean": 3662.0,
+      "payment_mean": 2139.0,
+      "limit_percentile": 0.4604153471782393,
+      "mean_limit_by_outcome": 130109.65641952984
+    },
+    {
+      "ID": 11212,
+      "default": 1,
+      "LIMIT_BAL": 130000,
+      "bill_mean": 107045.0,
+      "payment_mean": 12092.5,
+      "limit_percentile": 0.4604153471782393,
+      "mean_limit_by_outcome": 130109.65641952984
+    },
+    {
+      "ID": 11213,
+      "default": 1,
+      "LIMIT_BAL": 130000,
+      "bill_mean": 67413.0,
+      "payment_mean": 2833.3333333333335,
+      "limit_percentile": 0.4604153471782393,
+      "mean_limit_by_outcome": 130109.65641952984
+    }
+  ]
+}

@@ -1,0 +1,27 @@
+{
+  "python": "3.11.17",
+  "unit_tests": {
+    "passed": 28,
+    "failed": 0,
+    "skipped": 0
+  },
+  "real_dataset_rows": 30000,
+  "trained_models": 5,
+  "mode": "fast",
+  "lint": "passed",
+  "formatting": "passed",
+  "metric_recomputation": "passed",
+  "original_feature_groups_disjoint": "passed",
+  "dashboard_views_verified": 6,
+  "individual_prediction": "passed",
+  "local_shap": "passed",
+  "frozen_test_strategy_after_slider_change": "passed",
+  "simulated_psi": "passed",
+  "streamlit_health_http": 200,
+  "docker_build": "passed",
+  "docker_container_smoke": "passed",
+  "setup_script_repeatability": "passed",
+  "comprehensive_mode": "not run",
+  "github_actions_remote": "not run",
+  "environment_draft": "install_script, start_skill and archive.ics.uci.edu saved; not published"
+}
